@@ -1,0 +1,31 @@
+/* ==========================================
+   HotBite Digital Menu - Custom Stylesheet
+   ========================================== */
+
+/* Custom Scrollbar Hiding for Horizontal Category Bar */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Smooth Transitions & Animations */
+.transition-all-200 {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Custom Active Preset Button Style for TopUp Modal */
+.topup-preset-btn.active {
+    background-color: #FEF3C7;
+    border-color: #F59E0B;
+    color: #92400E;
+    font-weight: 700;
+}
+
+/* Base body tweaks */
+body {
+    -webkit-tap-highlight-color: transparent;
+}
